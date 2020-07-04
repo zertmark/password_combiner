@@ -1,7 +1,9 @@
 # password_combiner
 Simple script which filters and combines wordlist on Python 3             
 # INSTALL:                      
-git clone https://github.com/zertmark/password_combiner.git && cd password_combiner && pip3 install argparse                 
+git clone https://github.com/zertmark/password_combiner.git && cd password_combiner && pip3 install argparse            
+# NEW:                             
+1) Bug fix                  
 # RUN:                           
 python3 password_combiner.py -h             
 usage: password_combiner.py [-h] [-r] [-a] [-o OUTPUT] [-c] [-f] dir                       
