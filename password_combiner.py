@@ -81,7 +81,10 @@ def save(list):
    if value:
     saver.write(value.strip()+'\n')
   print(Fore.GREEN+"New wordlist was saved in {}".format(output)+Fore.RESET)
-  exit()
+  if fast != True:
+   exit()
+  else:
+   pass
 try:
  main()
 except KeyboardInterrupt:
